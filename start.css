@@ -1,0 +1,63 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.mosca {
+    height: 50px;
+    width: 50px;
+}
+
+.mosca2 {
+    height: 70px;
+    width: 70px;
+}
+
+.mosca3 {
+    height: 90px;
+    width: 90px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ajuste {
+    max-width: 100%;
+    height: auto;
+}
